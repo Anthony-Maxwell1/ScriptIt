@@ -12,6 +12,6 @@ You can use it by going to the directory:
 This directory will change depending on where you download it or where you move it to. Then, type cmd in the path.
 ![alt text](cmd.png "Figure 1: Open command prompt in windows")
 Then type `py shell.py`. There is multiple variations and some may or may not work.
-`py3 shell.py`
-`python shell.py`
-`python3 shell.py`
+- `py3 shell.py`
+- `python shell.py`
+- `python3 shell.py`
