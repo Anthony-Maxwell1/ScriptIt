@@ -16,5 +16,7 @@ Then type `py shell.py`. There is multiple variations and some may or may not wo
 - `py3 shell.py`
 - `python shell.py`
 - `python3 shell.py`
+
 ![alt text](terminal.png "Figure 2: Run Program via Terminal")
+
 You can also double click the program to run it.
