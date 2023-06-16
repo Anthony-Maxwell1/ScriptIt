@@ -3,7 +3,7 @@
 ## About
 ScriptIt is a new programming language developed solo by Anthony Maxwell. This is developed in python.
 ## Compatibility
-ScriptIt does not use any modules. It only requires `Python 3+` to be installed.
+ScriptIt only requires `Python 3+` to be installed.
 ## How can you use it?
 So far I have it set up to be able to do:
 - Answer mathematical equations (Including Paranthesis, Unary Operations, Binary Operations, Integers and Floats)
@@ -41,7 +41,7 @@ Examples:
 ## Errors
 ### What are the errors and how do I solve them?
 - IllegalCharError: You have inputed and illegall character that is not accepted. Valid Characters are: `Numbers 0-9`, `+`, `-`, `*`, `/`, `(` and `)`. Ignored characters include: ` `, `\` and `t`. Any other characters will raise this error (As of now, I am aware of the issue if you add nothing or only spaces. I am in the proccess of debugging.)
-- InvalidSyntaxError: This means that you have given incorrect syntax. This could include: `Unmatched '('`, `Unmatched ')'`, `No numbers before/after symbols`, `Too many numbers without an operation.` (I am aware of an issue related to positional arguments and am in the process of debugging.)
-- RuntimeError: This can occur when you `Divide by zero`.
+- InvalidSyntaxError: This means that you have given incorrect syntax. This could include: `Unmatched '('`, `Unmatched ')'`, `No numbers before/after symbols`, `Too many numbers without an operation.`, `Expected int, float, '+', '-' or '('`, `Expected an identifier` or `Expected '=' after variable identifier.`
+- RuntimeError: This can occur when you Divide by zero or attempt to reference a variable that was not defined.
 
 If there are any other issues, post them on the issues tab of this repository.

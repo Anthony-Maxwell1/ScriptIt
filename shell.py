@@ -6,7 +6,7 @@ print("""
 `.  `-. | .--'|  .--',--.| .-. |'-.  .-'|  |'-.  .-'
 .-'    |\ `--.|  |   |  || '-' '  |  |  |  |  |  |
 `-----'  `---'`--'   `--'|  |-'   `--'  `--'  `--'
-ScriptIt 1.1 by Anthony Maxwell.
+ScriptIt 1.2 by Anthony Maxwell.
 View changelogs in change-logs.txt
 """)
 
