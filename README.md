@@ -20,3 +20,5 @@ Then type `py shell.py`. There is multiple variations and some may or may not wo
 ![alt text](terminal.png "Figure 2: Run Program via Terminal")
 
 You can also double click the program to run it.
+
+![alt text](doubleclick.png "Figure 2: Run Program via Double Click")
