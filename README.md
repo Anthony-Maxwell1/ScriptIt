@@ -22,3 +22,26 @@ Then type `py shell.py`. There is multiple variations and some may or may not wo
 You can also double click the program to run it.
 
 ![alt text](doubleclick.png "Figure 2: Run Program via Double Click")
+## How to use the program.
+As of now, the program only supports mathematical equations.
+This includes:
+- Order of Operations (Paranthesis, multiplication before addition, etc.)
+- Binary Opeartions (+, -, *, /)
+- Unary Operations (Negative numbers)
+- Integers & Floats (Numbers and decimals)
+
+### How do you use these commands?
+It is very simple. Since, as of now, we only have mathematical equations, you can just type in the equation.
+
+Examples:
+- `10 + 10 * 2` -> `30`
+- `(10 + 10) * 2` -> `40`
+- `2 / 2 + 2` -> `2`
+
+## Errors
+### What are the errors and how do I solve them?
+- IllegalCharError: You have inputed and illegall character that is not accepted. Valid Characters are: `Numbers 0-9`, `+`, `-`, `*`, `/`, `(` and `)`. Ignored characters include: ` `, `\` and `t`. Any other characters will raise this error (As of now, I am aware of the issue if you add nothing or only spaces. I am in the proccess of debugging.)
+- InvalidSyntaxError: This means that you have given incorrect syntax. This could include: `Unmatched '('`, `Unmatched ')'`, `No numbers before/after symbols`, `Too many numbers without an operation.` (I am aware of an issue related to positional arguments and am in the process of debugging.)
+- RuntimeError: This can occur when you `Divide by zero`.
+
+If there are any other issues, post them on the issues tab of this repository.
